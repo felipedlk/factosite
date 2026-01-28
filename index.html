@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Factos Assessoria Contábil</title>
+  <meta name="description" content="Factos Assessoria Contábil – Soluções estratégicas em contabilidade, fiscal e consultoria em Balneário Camboriú – SC." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .hero-bg{background-image:url('img/banner-factos.png');}
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="logo.png" alt="Factos" class="h-10" />
+        <span class="font-semibold tracking-wide">Factos Assessoria Contábil</span>
+      </div>
+      <nav class="hidden md:flex gap-8 text-sm">
+        <a href="#inicio" class="hover:text-red-400">Início</a>
+        <a href="#servicos" class="hover:text-red-400">Serviços</a>
+        <a href="#sobre" class="hover:text-red-400">Quem Somos</a>
+        <a href="#contato" class="hover:text-red-400">Fale Conosco</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="relative hero-bg bg-cover bg-center">
+    <div class="absolute inset-0 bg-gradient-to-br from-black/70 via-slate-950/70 to-red-950/60"></div>
+    <div class="relative max-w-7xl mx-auto px-6 py-28 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <span class="inline-block mb-4 px-4 py-1 rounded-full bg-red-600/20 text-red-400 text-xs">Contabilidade Estratégica</span>
+        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">Decisões inteligentes começam com <span class="text-red-500">números certos</span></h1>
+        <p class="mt-6 text-slate-300">Ajudamos sua empresa a crescer com organização financeira, planejamento tributário e visão de futuro.</p>
+        <div class="mt-8 flex gap-4">
+          <a href="#contato" class="px-6 py-3 rounded-xl bg-red-600 hover:bg-red-500 transition">Fale Conosco</a>
+          <a href="#servicos" class="px-6 py-3 rounded-xl border border-white/20 hover:bg-white/10 transition">Ver Serviços</a>
+        </div>
+      </div>
+      <div class="hidden md:block">
+        <img src="img/banner-factos.png" alt="Banner Factos" class="rounded-2xl shadow-2xl" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="py-24">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold mb-12">Nossos Serviços</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 rounded-2xl bg-white/5 hover:bg-white/10 transition">
+          <h3 class="text-xl font-semibold mb-3">Contabilidade</h3>
+          <p class="text-slate-300">Gestão contábil completa com foco em segurança e clareza.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white/5 hover:bg-white/10 transition">
+          <h3 class="text-xl font-semibold mb-3">Fiscal & Tributário</h3>
+          <p class="text-slate-300">Planejamento para reduzir impostos de forma legal e estratégica.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white/5 hover:bg-white/10 transition">
+          <h3 class="text-xl font-semibold mb-3">Consultoria</h3>
+          <p class="text-slate-300">Apoio para decisões que impulsionam o crescimento do negócio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="py-24 bg-white/5">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-bold mb-6">Quem Somos</h2>
+        <p class="text-slate-300">A Factos Assessoria Contábil atua com excelência em Balneário Camboriú – SC, oferecendo soluções modernas em contabilidade, fiscal e consultoria.</p>
+        <p class="mt-4 text-slate-300">CRC/SC: 007077/O-2</p>
+      </div>
+      <div>
+        <img src="img/banner-factos.png" alt="Sobre Factos" class="rounded-2xl shadow-xl" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-24">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold mb-8">Fale Conosco</h2>
+      <div class="grid md:grid-cols-2 gap-12">
+        <form action="https://formsubmit.co/contato@factoscontabilidade.com.br" method="POST">
+          <input type="text" name="nome" placeholder="Seu nome" required class="w-full p-3 rounded-lg bg-white/10 border border-white/10" />
+          <input type="email" name="email" placeholder="Seu e-mail" required class="w-full p-3 rounded-lg bg-white/10 border border-white/10" />
+          <textarea name="mensagem" placeholder="Sua mensagem" required class="w-full p-3 rounded-lg bg-white/10 border border-white/10 h-32"></textarea>
+          <button class="px-6 py-3 bg-red-600 rounded-xl hover:bg-red-500 transition">Enviar Mensagem</button>
+        </form>
+        <div class="space-y-4 text-slate-300">
+          <p><strong>Telefone:</strong> (47) 3366-4176</p>
+          <p><strong>WhatsApp:</strong> +55 (47) 98453-1186</p>
+          <p><strong>Endereço:</strong> Rua Jamaica, 122 – Sala 01 – Bairro das Nações – Balneário Camboriú – SC</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black py-6 text-center text-sm text-slate-400">
+    © 2026 Factos Assessoria Contábil. Todos os direitos reservados.<br />
+    Contabilidade, fiscal e consultoria em Balneário Camboriú – SC
+  </footer>
+</body>
+</html>
