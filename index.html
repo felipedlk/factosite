@@ -28,23 +28,29 @@
   </header>
 
   <!-- Hero -->
-  <section id="inicio" class="relative hero-bg bg-cover bg-center">
-    <div class="absolute inset-0 bg-gradient-to-br from-black/70 via-slate-950/70 to-red-950/60"></div>
-    <div class="relative max-w-7xl mx-auto px-6 py-28 grid md:grid-cols-2 gap-12 items-center">
-      <div>
-        <span class="inline-block mb-4 px-4 py-1 rounded-full bg-red-600/20 text-red-400 text-xs">Contabilidade Estratégica</span>
-        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">Decisões inteligentes começam com <span class="text-red-500">números certos</span></h1>
-        <p class="mt-6 text-slate-300">Ajudamos sua empresa a crescer com organização financeira, planejamento tributário e visão de futuro.</p>
-        <div class="mt-8 flex gap-4">
-          <a href="#contato" class="px-6 py-3 rounded-xl bg-red-600 hover:bg-red-500 transition">Fale Conosco</a>
-          <a href="#servicos" class="px-6 py-3 rounded-xl border border-white/20 hover:bg-white/10 transition">Ver Serviços</a>
-        </div>
-      </div>
-      <div class="hidden md:block">
-        <img src="img/banner-factos.png" alt="Banner Factos" class="rounded-2xl shadow-2xl" />
+  <section id="inicio" class="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
+  <div class="absolute inset-0 bg-[linear-gradient(135deg,rgba(120,0,0,0.75),rgba(0,0,0,0.65))]"></div>
+  <div class="absolute inset-0 bg-[url('img/banner-factos.png')] bg-cover bg-center mix-blend-overlay opacity-70"></div>
+  <div class="relative z-10 max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <span class="inline-block mb-4 px-4 py-1 rounded-full bg-white/10 backdrop-blur text-sm tracking-wide">Balneário Camboriú • SC</span>
+      <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">
+        Factos <span class="text-red-400">Assessoria Contábil</span>
+      </h1>
+      <p class="mt-6 text-lg text-slate-200 max-w-xl">
+        Contabilidade estratégica, fiscal e consultoria para empresas que querem crescer com segurança e performance.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-4">
+        <a href="#contato" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-red-600 hover:bg-red-700 transition shadow-lg">Fale Conosco</a>
+        <a href="https://wa.me/5547984531186" target="_blank" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 transition backdrop-blur">WhatsApp</a>
       </div>
     </div>
-  </section>
+    <div class="relative">
+      <div class="absolute -inset-4 bg-red-600/20 blur-3xl rounded-full"></div>
+      <img src="img/logo.png" alt="Factos Assessoria Contábil" class="relative mx-auto w-64 md:w-80 drop-shadow-2xl" />
+    </div>
+  </div>
+</section>
 
   <!-- Serviços -->
   <section id="servicos" class="py-24">
@@ -86,7 +92,7 @@
     <div class="max-w-7xl mx-auto px-6">
       <h2 class="text-3xl md:text-4xl font-bold mb-8">Fale Conosco</h2>
       <div class="grid md:grid-cols-2 gap-12">
-        <form action="https://formsubmit.co/contato@factoscontabilidade.com.br" method="POST">
+        <form action="https://formsubmit.co/SEUEMAILAQUI" method="POST" class="space-y-4">
           <input type="text" name="nome" placeholder="Seu nome" required class="w-full p-3 rounded-lg bg-white/10 border border-white/10" />
           <input type="email" name="email" placeholder="Seu e-mail" required class="w-full p-3 rounded-lg bg-white/10 border border-white/10" />
           <textarea name="mensagem" placeholder="Sua mensagem" required class="w-full p-3 rounded-lg bg-white/10 border border-white/10 h-32"></textarea>
