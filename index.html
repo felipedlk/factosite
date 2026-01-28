@@ -12,22 +12,43 @@
 </head>
 <body class="bg-slate-950 text-slate-100">
   <!-- Header -->
-  <header class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur border-b border-white/10">
-    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+  <header class="bg-white border-b">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
       <div class="flex items-center gap-3">
-        <img src="logo.png" alt="Factos" class="h-10" />
-        <span class="font-semibold tracking-wide">Factos Assessoria Contábil</span>
+        <img src="logo.png" alt="Factos Assessoria Contábil" class="h-10" />
       </div>
-      <nav class="hidden md:flex gap-8 text-sm">
-        <a href="#inicio" class="hover:text-red-400">Início</a>
-        <a href="#servicos" class="hover:text-red-400">Serviços</a>
-        <a href="#sobre" class="hover:text-red-400">Quem Somos</a>
-        <a href="#contato" class="hover:text-red-400">Fale Conosco</a>
+      <nav class="space-x-8 hidden md:block text-sm font-medium text-gray-700">
+        <a href="#sobre" class="hover:text-red-600">Quem Somos</a>
+        <a href="#servicos" class="hover:text-red-600">Serviços</a>
+        <a href="#contato" class="hover:text-red-600">Fale Conosco</a>
       </nav>
     </div>
   </header>
 
   <!-- Hero -->
+  <section id="inicio" class="relative bg-white overflow-hidden">
+    <div class="absolute inset-0">
+      <img src="img/banner-factos.png" alt="Factos Assessoria Contábil" class="w-full h-full object-cover opacity-15" />
+    </div>
+    <div class="relative max-w-7xl mx-auto px-6 py-28 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <span class="inline-block mb-4 px-4 py-1 rounded-full bg-gray-100 text-gray-600 text-xs tracking-wide">Assessoria Contábil • SC & Brasil</span>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">Decisões inteligentes começam com números certos</h1>
+        <p class="mt-6 text-lg text-gray-600">A Factos Assessoria Contábil entrega organização, segurança e estratégia para sua empresa crescer com tranquilidade.</p>
+        <div class="mt-8 flex gap-4">
+          <a href="#contato" class="px-6 py-3 rounded-xl bg-gray-900 text-white font-semibold hover:bg-gray-800">Fale com um contador</a>
+          <a href="https://wa.me/5547984531186" target="_blank" class="px-6 py-3 rounded-xl border border-gray-300 text-gray-800 font-semibold hover:bg-gray-50">WhatsApp</a>
+        </div>
+      </div>
+      <div class="hidden md:block">
+        <div class="relative">
+          <img src="img/banner-factos.png" alt="Factos Assessoria Contábil" class="rounded-3xl shadow-2xl border border-gray-200" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 <section id="inicio" class="relative bg-white overflow-hidden">
   <div class="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
     <div>
